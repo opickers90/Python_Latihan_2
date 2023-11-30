@@ -10,6 +10,7 @@ def tampilkan_teks():
 # Uncomment untuk menguji fungsi
 # tampilkan_teks()  # harus mencetak "Hello, Python!"
 ```
+
 2.	Input dan Output: Buat fungsi hitung_umur() yang meminta pengguna untuk memasukkan tahun lahir dan menghitung umur pengguna berdasarkan tahun saat ini (2023).
 ```python
 # Definisikan fungsi hitung_umur di sini
@@ -21,6 +22,7 @@ def hitung_umur():
 # Uncomment untuk menguji fungsi
 # hitung_umur()  # Contoh output jika tahun lahir adalah 1990: "Umur Anda adalah 33 tahun."
 ```
+
 3.	Variabel: Buat fungsi tukar_variabel(a, b) yang menukar nilai dari dua variabel yang diberikan dan mengembalikan keduanya. 
 ```python
 # Definisikan fungsi tukar_variabel di sini
@@ -30,6 +32,7 @@ def tukar_variabel(a, b):
 # Uncomment untuk menguji fungsi
 # print(tukar_variabel(3, 7))  # harus mencetak (7, 3)
 ```
+
 4.	Kalkulator Sederhana: Buat fungsi kalkulator_sederhana() yang meminta pengguna untuk memasukkan dua angka dan sebuah operator (+, -, *, /) dan kemudian mengembalikan hasil operasi tersebut. 
 ```python
 # Definisikan fungsi kalkulator_sederhana di sini
@@ -53,6 +56,7 @@ def kalkulator_sederhana():
 # Uncomment untuk menguji fungsi
 # kalkulator_sederhana()  # Contoh input/output: "Masukkan angka pertama: 5", "Masukkan angka kedua: 8", "Masukkan operator: +", "Hasil: 13"
 ```
+
 5.	Conditional Statement (if): Buat fungsi cek_genap_ganjil() yang meminta pengguna untuk memasukkan sebuah angka dan mengidentifikasi apakah angka tersebut genap atau ganjil. 
 ```python
 # Definisikan fungsi cek_genap_ganjil di sini
@@ -66,6 +70,7 @@ def cek_genap_ganjil():
 # Uncomment untuk menguji fungsi
 # cek_genap_ganjil()  # Contoh output jika angka adalah 4: "Angka 4 adalah genap."
 ```
+
 6.	Loop (for): Buat fungsi cetak_angka() yang mencetak angka 1 sampai 5 menggunakan loop for. 
 ```python
 # Definisikan fungsi cetak_angka di sini
@@ -76,6 +81,7 @@ def cetak_angka():
 # Uncomment untuk menguji fungsi
 # cetak_angka()  # harus mencetak angka dari 1 sampai 5
 ```
+
 7.	Loop (while): Buat fungsi hitung_mundur() yang meminta pengguna untuk memasukkan sebuah angka dan kemudian mencetak hitungan mundur dari angka tersebut sampai 1 menggunakan loop while. 
 ```python
 # Definisikan fungsi hitung_mundur di sini
@@ -87,6 +93,7 @@ def hitung_mundur():
 # Uncomment untuk menguji fungsi
 # hitung_mundur()  # jika pengguna memasukkan 5, harus mencetak: 5 4 3 2 1
 ```
+
 8.	List dan Operasinya: Buat fungsi tambah_elemen_list() yang menerima sebuah list dan sebuah elemen baru yang akan ditambahkan ke dalam list tersebut, kemudian mengembalikan list baru setelah penambahan. 
 ```ptyhon
 # Definisikan fungsi tambah_elemen_list di sini
@@ -97,6 +104,7 @@ def tambah_elemen_list(list_awal, elemen_baru):
 # Uncomment untuk menguji fungsi
 # print(tambah_elemen_list([1, 2, 3], 4))  # harus mencetak [1, 2, 3, 4]
 ```
+
 9.	Tuple dan Operasinya: Buat fungsi hitung_tuple() yang menghitung dan mengembalikan jumlah semua elemen numerik dalam sebuah tuple. 
 ```python
 # Definisikan fungsi hitung_tuple di sini
@@ -110,6 +118,7 @@ def hitung_tuple(tup):
 # Uncomment untuk menguji fungsi
 # print(hitung_tuple((1, 2, 'a', 'b', 3)))  # harus mencetak 6
 ```
+
 10.	Dictionary dan Operasinya: Buat fungsi cari_nilai_dictionary() yang menerima sebuah dictionary dan sebuah kunci, kemudian mengembalikan nilai yang terkait dengan kunci tersebut dari dictionary. 
 ```python
 # Definisikan fungsi cari_nilai_dictionary di sini
@@ -119,6 +128,7 @@ def cari_nilai_dictionary(dict, kunci):
 # Uncomment untuk menguji fungsi
 # print(cari_nilai_dictionary({'a': 1, 'b': 2, 'c': 3}, 'b'))  # harus mencetak 2
 ```
+
 11.	Fungsi dengan Argumen: Buat fungsi hitung_perkalian() yang menerima dua argumen numerik dan mengembalikan hasil perkaliannya. 
 ```python
 # Definisikan fungsi hitung_perkalian di sini
@@ -128,6 +138,7 @@ def hitung_perkalian(angka1, angka2):
 # Uncomment untuk menguji fungsi
 # print(hitung_perkalian(4, 5))  # harus mencetak 20
 ```
+
 12.	Fungsi dengan Return Value: Buat fungsi maksimum_dua_angka() yang menerima dua angka dan mengembalikan angka yang lebih besar. 
 ```python
 # Definisikan fungsi maksimum_dua_angka di sini
@@ -137,6 +148,7 @@ def maksimum_dua_angka(angka1, angka2):
 # Uncomment untuk menguji fungsi
 # print(maksimum_dua_angka(4, 5))  # harus mencetak 5
 ```
+
 13.	Fungsi Rekursif: Buat fungsi rekursif faktorial() yang menghitung faktorial dari sebuah angka. 
 ```python
 # Definisikan fungsi faktorial di sini
@@ -149,6 +161,7 @@ def faktorial(n):
 # Uncomment untuk menguji fungsi
 # print(faktorial(5))  # harus mencetak 120
 ```
+
 14.	Menggunakan Modul Eksternal: Gunakan modul math untuk membuat fungsi hitung_akar_kuadrat() yang menghitung akar kuadrat dari sebuah angka. 
 ```python
 # Definisikan fungsi hitung_akar_kuadrat di sini
@@ -160,6 +173,7 @@ def hitung_akar_kuadrat(angka):
 # Uncomment untuk menguji fungsi
 # print(hitung_akar_kuadrat(16))  # harus mencetak 4.0
 ```
+
 15.	Pembuatan Class Sederhana: Buat class Mobil dengan constructor yang menerima merk dan warna, dan method tampilkan_info() yang mencetak informasi mobil tersebut. 
 ```python
 # Definisikan class Mobil di sini
@@ -175,47 +189,102 @@ class Mobil:
 # mobil_saya = Mobil('Toyota', 'Merah')
 # mobil_saya.tampilkan_info()  # harus mencetak "Merk: Toyota, Warna: Merah"
 ```
+
 16.	Pengolahan String: Buat fungsi balik_string() yang menerima sebuah string dan mengembalikan string tersebut dalam urutan terbalik. 
+```python
 # Definisikan fungsi balik_string di sini
+def balik_string(s):
+    return s[::-1]
 
 # Uncomment untuk menguji fungsi
 # print(balik_string("python"))  # harus mencetak "nohtyp"
+```
+
 17.	File Handling (Membaca File): Buat fungsi baca_file() yang membaca isi dari sebuah file dengan nama 'data.txt' dan mencetak isinya. 
+```python
 # Definisikan fungsi baca_file di sini
+def baca_file():
+    with open('data.txt', 'r') as file:
+        isi = file.read()
+        print(isi)
 
 # Uncomment untuk menguji fungsi
 # baca_file()  # harus mencetak isi dari 'data.txt'
+```
+
 18.	File Handling (Menulis File): Buat fungsi tulis_file() yang menulis sebuah string ke dalam sebuah file dengan nama 'output.txt'. 
+```python
 # Definisikan fungsi tulis_file di sini
+def tulis_file(teks):
+    with open('output.txt', 'w') as file:
+        file.write(teks)
 
 # Uncomment untuk menguji fungsi
 # tulis_file("Ini adalah teks yang ditulis ke dalam file.")  # harus membuat atau menulis ulang 'output.txt' dengan teks yang diberikan
+```
+
 19.	Error Handling (try...except): Buat fungsi bagi_dua_angka() yang membagi dua angka dan menggunakan error handling untuk menangani pembagian dengan nol. 
+```python
 # Definisikan fungsi bagi_dua_angka di sini
+def bagi_dua_angka(a, b):
+    try:
+        return a / b
+    except ZeroDivisionError:
+        return "Error: Tidak bisa membagi dengan nol"
 
 # Uncomment untuk menguji fungsi
 # print(bagi_dua_angka(10, 2))  # harus mencetak 5.0
 # print(bagi_dua_angka(10, 0))  # harus mencetak "Error: Tidak bisa membagi dengan nol"
+```
+
 20.	Lambda Functions: Buat fungsi lambda yang menghitung kuadrat dari sebuah angka dan simpan dalam variabel bernama kuadrat. 
+```python
 # Definisikan fungsi lambda di sini dan simpan dalam variabel kuadrat
+kuadrat = lambda x: x ** 2
 
 # Uncomment untuk menguji fungsi
 # print(kuadrat(5))  # harus mencetak 25
+```
 
 21.	Inheritance dalam Class: Buat class Kendaraan dengan properti umum dan class Mobil yang mewarisi properti dari Kendaraan serta menambahkan properti khusus untuk mobil. 
+```python
 # Definisikan class Kendaraan dan class Mobil di sini
+class Kendaraan:
+    def __init__(self, merk):
+        self.merk = merk
+
+class Mobil(Kendaraan):
+    def __init__(self, merk, warna, tipe):
+        super().__init__(merk)
+        self.warna = warna
+        self.tipe = tipe
+
+    def tampilkan_info(self):
+        print(f"Merk: {self.merk}, Warna: {self.warna}, Tipe: {self.tipe}")
 
 # Uncomment untuk menguji class
 # mobil_saya = Mobil('Toyota', 'Merah', 'SUV')
 # mobil_saya.tampilkan_info()  # harus mencetak "Merk: Toyota, Warna: Merah, Tipe: SUV"
+```
+
 22.	Polimorfisme: Buat dua class, Burung dan Pesawat, yang keduanya memiliki method terbang() tetapi dengan implementasi yang berbeda. 
+```python
 # Definisikan class Burung dan Pesawat dengan method terbang di sini
+class Burung:
+    def terbang(self):
+        print("Burung terbang menggapai langit")
+
+class Pesawat:
+    def terbang(self):
+        print("Pesawat lepas landas menuju awan")
 
 # Uncomment untuk menguji class
 # merpati = Burung()
 # merpati.terbang()  # harus mencetak "Burung terbang menggapai langit"
 # garuda = Pesawat()
 # garuda.terbang()  # harus mencetak "Pesawat lepas landas menuju awan"
+```
+
 23.	Encapsulation: Buat class RekeningBank dengan enkapsulasi yang memungkinkan deposit dan penarikan uang sambil menyembunyikan detail saldo dari pengguna. 
 # Definisikan class RekeningBank di sini
 
