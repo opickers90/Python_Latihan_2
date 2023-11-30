@@ -111,37 +111,70 @@ def hitung_tuple(tup):
 # print(hitung_tuple((1, 2, 'a', 'b', 3)))  # harus mencetak 6
 ```
 10.	Dictionary dan Operasinya: Buat fungsi cari_nilai_dictionary() yang menerima sebuah dictionary dan sebuah kunci, kemudian mengembalikan nilai yang terkait dengan kunci tersebut dari dictionary. 
+```python
 # Definisikan fungsi cari_nilai_dictionary di sini
+def cari_nilai_dictionary(dict, kunci):
+    return dict.get(kunci)
 
 # Uncomment untuk menguji fungsi
 # print(cari_nilai_dictionary({'a': 1, 'b': 2, 'c': 3}, 'b'))  # harus mencetak 2
+```
 11.	Fungsi dengan Argumen: Buat fungsi hitung_perkalian() yang menerima dua argumen numerik dan mengembalikan hasil perkaliannya. 
+```python
 # Definisikan fungsi hitung_perkalian di sini
+def hitung_perkalian(angka1, angka2):
+    return angka1 * angka2
 
 # Uncomment untuk menguji fungsi
 # print(hitung_perkalian(4, 5))  # harus mencetak 20
+```
 12.	Fungsi dengan Return Value: Buat fungsi maksimum_dua_angka() yang menerima dua angka dan mengembalikan angka yang lebih besar. 
+```python
 # Definisikan fungsi maksimum_dua_angka di sini
+def maksimum_dua_angka(angka1, angka2):
+    return max(angka1, angka2)
 
 # Uncomment untuk menguji fungsi
 # print(maksimum_dua_angka(4, 5))  # harus mencetak 5
+```
 13.	Fungsi Rekursif: Buat fungsi rekursif faktorial() yang menghitung faktorial dari sebuah angka. 
+```python
 # Definisikan fungsi faktorial di sini
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * faktorial(n - 1)
 
 # Uncomment untuk menguji fungsi
 # print(faktorial(5))  # harus mencetak 120
+```
 14.	Menggunakan Modul Eksternal: Gunakan modul math untuk membuat fungsi hitung_akar_kuadrat() yang menghitung akar kuadrat dari sebuah angka. 
+```python
 # Definisikan fungsi hitung_akar_kuadrat di sini
+import math
+
+def hitung_akar_kuadrat(angka):
+    return math.sqrt(angka)
 
 # Uncomment untuk menguji fungsi
 # print(hitung_akar_kuadrat(16))  # harus mencetak 4.0
+```
 15.	Pembuatan Class Sederhana: Buat class Mobil dengan constructor yang menerima merk dan warna, dan method tampilkan_info() yang mencetak informasi mobil tersebut. 
+```python
 # Definisikan class Mobil di sini
+class Mobil:
+    def __init__(self, merk, warna):
+        self.merk = merk
+        self.warna = warna
+
+    def tampilkan_info(self):
+        print(f"Merk: {self.merk}, Warna: {self.warna}")
 
 # Uncomment untuk menguji class
 # mobil_saya = Mobil('Toyota', 'Merah')
 # mobil_saya.tampilkan_info()  # harus mencetak "Merk: Toyota, Warna: Merah"
-
+```
 16.	Pengolahan String: Buat fungsi balik_string() yang menerima sebuah string dan mengembalikan string tersebut dalam urutan terbalik. 
 # Definisikan fungsi balik_string di sini
 
