@@ -11,45 +11,105 @@ def tampilkan_teks():
 # tampilkan_teks()  # harus mencetak "Hello, Python!"
 ```
 2.	Input dan Output: Buat fungsi hitung_umur() yang meminta pengguna untuk memasukkan tahun lahir dan menghitung umur pengguna berdasarkan tahun saat ini (2023).
+```python
 # Definisikan fungsi hitung_umur di sini
+def hitung_umur():
+    tahun_lahir = int(input("Masukkan tahun lahir Anda: "))
+    umur = 2023 - tahun_lahir
+    print(f"Umur Anda adalah {umur} tahun.")
 
 # Uncomment untuk menguji fungsi
 # hitung_umur()  # Contoh output jika tahun lahir adalah 1990: "Umur Anda adalah 33 tahun."
+```
 3.	Variabel: Buat fungsi tukar_variabel(a, b) yang menukar nilai dari dua variabel yang diberikan dan mengembalikan keduanya. 
+```python
 # Definisikan fungsi tukar_variabel di sini
+def tukar_variabel(a, b):
+    return b, a
 
 # Uncomment untuk menguji fungsi
 # print(tukar_variabel(3, 7))  # harus mencetak (7, 3)
+```
 4.	Kalkulator Sederhana: Buat fungsi kalkulator_sederhana() yang meminta pengguna untuk memasukkan dua angka dan sebuah operator (+, -, *, /) dan kemudian mengembalikan hasil operasi tersebut. 
+```python
 # Definisikan fungsi kalkulator_sederhana di sini
+def kalkulator_sederhana():
+    angka1 = float(input("Masukkan angka pertama: "))
+    angka2 = float(input("Masukkan angka kedua: "))
+    operator = input("Masukkan operator (+, -, *, /): ")
 
+    if operator == '+':
+        hasil = angka1 + angka2
+    elif operator == '-':
+        hasil = angka1 - angka2
+    elif operator == '*':
+        hasil = angka1 * angka2
+    elif operator == '/':
+        hasil = angka1 / angka2
+    else:
+        hasil = "Operator tidak valid"
+
+    print(f"Hasil: {hasil}")
 # Uncomment untuk menguji fungsi
 # kalkulator_sederhana()  # Contoh input/output: "Masukkan angka pertama: 5", "Masukkan angka kedua: 8", "Masukkan operator: +", "Hasil: 13"
+```
 5.	Conditional Statement (if): Buat fungsi cek_genap_ganjil() yang meminta pengguna untuk memasukkan sebuah angka dan mengidentifikasi apakah angka tersebut genap atau ganjil. 
+```python
 # Definisikan fungsi cek_genap_ganjil di sini
+def cek_genap_ganjil():
+    angka = int(input("Masukkan sebuah angka: "))
+    if angka % 2 == 0:
+        print(f"Angka {angka} adalah genap.")
+    else:
+        print(f"Angka {angka} adalah ganjil.")
 
 # Uncomment untuk menguji fungsi
 # cek_genap_ganjil()  # Contoh output jika angka adalah 4: "Angka 4 adalah genap."
+```
 6.	Loop (for): Buat fungsi cetak_angka() yang mencetak angka 1 sampai 5 menggunakan loop for. 
+```python
 # Definisikan fungsi cetak_angka di sini
+def cetak_angka():
+    for i in range(1, 6):
+        print(i)
 
 # Uncomment untuk menguji fungsi
 # cetak_angka()  # harus mencetak angka dari 1 sampai 5
+```
 7.	Loop (while): Buat fungsi hitung_mundur() yang meminta pengguna untuk memasukkan sebuah angka dan kemudian mencetak hitungan mundur dari angka tersebut sampai 1 menggunakan loop while. 
+```python
 # Definisikan fungsi hitung_mundur di sini
-
+def hitung_mundur():
+    angka = int(input("Masukkan sebuah angka: "))
+    while angka > 0:
+        print(angka)
+        angka -= 1
 # Uncomment untuk menguji fungsi
 # hitung_mundur()  # jika pengguna memasukkan 5, harus mencetak: 5 4 3 2 1
+```
 8.	List dan Operasinya: Buat fungsi tambah_elemen_list() yang menerima sebuah list dan sebuah elemen baru yang akan ditambahkan ke dalam list tersebut, kemudian mengembalikan list baru setelah penambahan. 
+```ptyhon
 # Definisikan fungsi tambah_elemen_list di sini
+def tambah_elemen_list(list_awal, elemen_baru):
+    list_awal.append(elemen_baru)
+    return list_awal
 
 # Uncomment untuk menguji fungsi
 # print(tambah_elemen_list([1, 2, 3], 4))  # harus mencetak [1, 2, 3, 4]
+```
 9.	Tuple dan Operasinya: Buat fungsi hitung_tuple() yang menghitung dan mengembalikan jumlah semua elemen numerik dalam sebuah tuple. 
+```python
 # Definisikan fungsi hitung_tuple di sini
+def hitung_tuple(tup):
+    total = 0
+    for item in tup:
+        if isinstance(item, (int, float)):
+            total += item
+    return total
 
 # Uncomment untuk menguji fungsi
 # print(hitung_tuple((1, 2, 'a', 'b', 3)))  # harus mencetak 6
+```
 10.	Dictionary dan Operasinya: Buat fungsi cari_nilai_dictionary() yang menerima sebuah dictionary dan sebuah kunci, kemudian mengembalikan nilai yang terkait dengan kunci tersebut dari dictionary. 
 # Definisikan fungsi cari_nilai_dictionary di sini
 
